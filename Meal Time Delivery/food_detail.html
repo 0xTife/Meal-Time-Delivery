@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Food Detail</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+</head>
+
+<body class='food-detail'>
+    <div class="food-detail-container">
+        <header><a href="index.html"><i class="fa fa-arrow-left fa-2x"></i></a><i class="fa fa-heart fa-2x"></i>
+        </header>
+        <section class="food-pics-container">
+            <div class="food-preview-box">
+                <img src="img/Ellipse 26.png" class="food-preview" />
+            </div>
+            <div class="counter">
+                <ul>
+                    <li><i class="fa fa-plus-circle fa-2x"></i></li>
+                    <li>
+                        <p class="no">2</p>
+                    </li>
+                    <li><i class="fa fa-minus-circle fa-2x"></i></li>
+                </ul>
+            </div>
+        </section>
+        <section class="food-info">
+            <div class="food-info-container">
+                <header>
+                    <h2 class="food-price">20$</h2>
+                </header>
+                <section>
+                    <h2>Kilimanjaro</h2>
+                    <div class="food-rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-full"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, est beatae voluptas eaque perspiciatis temporibus laborum deserunt, tenetur dolore evenie!</p>
+                    </div>
+                </section>
+                <div class="bag">
+                    <ul>
+                        <li>
+                            <h4>Delivery time Est</h4>
+                            <p class="mins">45-50 mins</p>
+                        </li>
+                        <li>
+                            <h4>Add to bag</h4>
+                            <p class="bag">
+                                <i class="fa fa-shopping-bag fa-2x"></i>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <footer class="index-footer">
+                    <ul>
+
+                        <li><a href="index.html"><i class="fa fa-home"></i></a></li>
+                        <li><a href="cart.html"><i class="fa fa-shopping-cart"></i></a></li>
+                        <li><a href="food_detail.html"><i class="fa fa-heart"></i></a></li>
+                        <li><a href="tracking.html"><i class="fa fa-user"></i></a></li>
+                    </ul>
+                </footer>
+            </div>
+        </section>
+        <script>
+            const plus = document.querySelector('.fa-plus-circle');
+            const counter = document.querySelector('.no')
+            const minus = document.querySelector('.fa-minus-circle');
+            const price = document.querySelector('.food-price');
+            plus.addEventListener('click', function() {
+                counter.innerText = parseInt(counter.innerText) + 1;
+                price.innerText = parseInt(price.innerText) + 10 + '$';
+            });
+            minus.addEventListener('click', function() {
+                counter.innerText = parseInt(counter.innerText) - 1;
+                price.innerText = parseInt(price.innerText) - 10 + '$';
+            });
+        </script>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,1501 @@
+.login-container .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 0 0 0;
+}
+
+.login-container .info h1 {
+  font-weight: bold;
+  font-size: 35px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+}
+
+.login-container .info p {
+  font-family: sofia;
+  padding: 10px 0 0 0;
+}
+
+.login-container .info p i:first-child {
+  color: red;
+}
+
+.login-container .info p i:nth-child(2) {
+  color: green;
+}
+
+.login-container .info p i:nth-child(3) {
+  color: orange;
+}
+
+.login-container form {
+  height: 320px;
+}
+
+.login-container form .error {
+  background: orangered;
+  color: #fff;
+  width: 100%;
+}
+
+.login-container form .username,
+.login-container form .password {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  margin: 45px auto 45px auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  border-radius: 20px;
+  width: 280px;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1), -3px -3px 3px rgba(190, 187, 187, 0.1);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1), -3px -3px 3px rgba(190, 187, 187, 0.1);
+}
+
+.login-container form .username i,
+.login-container form .password i {
+  color: orange;
+  padding: 12px 10px 12px 10px;
+  text-align: center;
+  font-size: 25px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.login-container form .username input,
+.login-container form .password input {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 20px;
+  color: #000;
+  font-weight: bolder;
+  width: 200px;
+  font-family: Arial;
+}
+
+.login-container form p {
+  padding: 0 25px 0 25px;
+  float: right;
+}
+
+.login-container form p a {
+  text-decoration: none;
+  color: #ccc;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+}
+
+.login-container form .btn {
+  width: auto;
+  padding: 30px 25px 0 25px;
+  height: 60px;
+}
+
+.login-container form .btn .signin-button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: orange;
+  float: right;
+}
+
+.login-container form .btn .signin-button a {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  color: #fff;
+}
+
+.login-container .link {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  color: #bbb;
+}
+
+.login-container .link a {
+  color: orange;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  font-weight: bolder;
+  text-decoration: none;
+  margin: 0 0 0 5px;
+}
+
+.login-container .link a:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.signup-container a i {
+  color: #000;
+  padding: 10px;
+}
+
+.signup-container .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 70px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 0 0 0;
+}
+
+.signup-container .info h1 {
+  font-weight: bold;
+  font-size: 35px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+}
+
+.signup-container .info p {
+  font-family: sofia;
+  padding: 10px 0 0 0;
+}
+
+.signup-container .info p i:first-child {
+  color: red;
+}
+
+.signup-container .info p i:nth-child(2) {
+  color: green;
+}
+
+.signup-container .info p i:nth-child(3) {
+  color: orange;
+}
+
+.signup-container form {
+  height: 400px;
+}
+
+.signup-container form .username,
+.signup-container form .password,
+.signup-container form .email,
+.signup-container form .phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  margin: 25px auto 25px auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #fff;
+  border-radius: 20px;
+  width: 280px;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1), -3px -3px 3px rgba(190, 187, 187, 0.1);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1), -3px -3px 3px rgba(190, 187, 187, 0.1);
+}
+
+.signup-container form .username i,
+.signup-container form .password i,
+.signup-container form .email i,
+.signup-container form .phone i {
+  color: orange;
+  padding: 12px 10px 12px 10px;
+  text-align: center;
+  font-size: 25px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.signup-container form .username input,
+.signup-container form .password input,
+.signup-container form .email input,
+.signup-container form .phone input {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
+  width: 210px;
+  font-family: Arial;
+}
+
+.signup-container form .username input:nth-child(2),
+.signup-container form .password input:nth-child(2),
+.signup-container form .email input:nth-child(2),
+.signup-container form .phone input:nth-child(2) {
+  width: 200px;
+}
+
+.signup-container form p {
+  float: right;
+}
+
+.signup-container form p a {
+  text-decoration: none;
+  color: #ccc;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+}
+
+.signup-container form .btn {
+  width: 100%;
+  margin: 20px 0 0 0;
+}
+
+.signup-container form .btn .signin-button {
+  width: 100px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background: orange;
+  float: right;
+}
+
+.signup-container form .btn .signin-button a {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  color: #fff;
+}
+
+.signup-container .link {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  color: #bbb;
+}
+
+.signup-container .link a {
+  color: orange;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  font-weight: bolder;
+  text-decoration: none;
+  margin: 0 0 0 5px;
+}
+
+.signup-container .link a:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.signup-container footer p {
+  text-align: center;
+  color: #bbb;
+}
+
+.signup-container footer ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 160px;
+  margin: 10px auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.signup-container footer ul li i {
+  font-size: 25px;
+}
+
+.signup-container footer ul li i:first-child {
+  color: blue;
+}
+
+.signup-container footer ul li:nth-child(2) i {
+  color: red;
+}
+
+.signup-container footer ul li:nth-child(3) i {
+  color: dodgerblue;
+}
+
+@media (min-width: 411px) {
+  .login-container .info {
+    height: 150px;
+  }
+  .login-container .info h1 {
+    font-size: 40px;
+  }
+  .login-container .info p {
+    font-size: 20px;
+  }
+  .login-container form .username,
+  .login-container form .password {
+    width: 320px;
+  }
+  .login-container form .username i,
+  .login-container form .password i {
+    padding: 12px 15px 12px 15px;
+  }
+  .login-container form .username input,
+  .login-container form .password input {
+    width: 220px;
+  }
+  .login-container form p {
+    padding: 0 25px 0 25px;
+  }
+  .login-container form p a {
+    font-size: 20px;
+  }
+  .login-container form .btn .signin-button {
+    width: 120px;
+    height: 40px;
+  }
+  .login-container form .btn .signin-button a {
+    font-size: 20px;
+  }
+  .signup-container .info {
+    height: 150px;
+  }
+  .signup-container .info h1 {
+    font-size: 40px;
+  }
+  .signup-container .info p {
+    font-size: 20px;
+  }
+  .signup-container form .username,
+  .signup-container form .password,
+  .signup-container form .email,
+  .signup-container form .phone {
+    width: 320px;
+  }
+  .signup-container form .username i,
+  .signup-container form .password i,
+  .signup-container form .email i,
+  .signup-container form .phone i {
+    padding: 12px 15px 12px 15px;
+  }
+  .signup-container form .username input,
+  .signup-container form .password input,
+  .signup-container form .email input,
+  .signup-container form .phone input {
+    width: 220px;
+  }
+  .signup-container form p {
+    padding: 0 25px 0 25px;
+  }
+  .signup-container form p a {
+    font-size: 20px;
+  }
+  .signup-container form .btn .signin-button {
+    width: 120px;
+    height: 40px;
+  }
+  .signup-container form .btn .signin-button a {
+    font-size: 20px;
+  }
+  .landing-page section i {
+    padding: 10px 25px 0 0;
+    font-size: 50px;
+  }
+}
+
+body .landing-page .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 40px 0 0 0;
+}
+
+body .landing-page .info h1 {
+  font-weight: bold;
+  font-size: 35px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+}
+
+body .landing-page .info p {
+  font-family: sofia;
+  padding: 10px 0 0 0;
+}
+
+body .landing-page .info p i:first-child {
+  color: red;
+}
+
+body .landing-page .info p i:nth-child(2) {
+  color: green;
+}
+
+body .landing-page .info p i:nth-child(3) {
+  color: orange;
+}
+
+body .landing-page section {
+  height: 500px;
+  padding: 20px 0;
+}
+
+body .landing-page section .image {
+  height: 90%;
+}
+
+body .landing-page section .image .bike-img {
+  margin: 100px;
+  width: 210px;
+  height: 210px;
+}
+
+body .landing-page section i {
+  float: right;
+  color: orange;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: auto;
+  width: 100%;
+}
+
+.signup-container {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+}
+
+.login-container {
+  width: 90%;
+  margin: auto;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  position: relative;
+  z-index: 0;
+}
+
+body .index-container header {
+  height: 200px;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url("../img/Rectangle 55.png");
+  background-size: cover;
+}
+
+body .index-container header .search {
+  width: 300px;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .index-container header .search input {
+  height: 38px;
+  background: #fff;
+  width: 250px;
+  border-radius: 40px;
+  outline: none;
+  border: 2px solid #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+body .index-container header .search i {
+  color: orange;
+  font-size: 30px;
+}
+
+body .index-container header .search i:hover {
+  cursor: pointer;
+}
+
+body .index-container main {
+  height: 700px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: .5fr 2.5fr 1.5fr 1fr;
+      grid-template-rows: .5fr 2.5fr 1.5fr 1fr;
+  grid-row-gap: 1em;
+  margin: 0 0 30px 0;
+  position: relative;
+  top: -40px;
+  background: #fff;
+  width: auto;
+}
+
+body .index-container main .featured {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #fff;
+  list-style-type: none;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body .index-container main .featured li {
+  height: 100%;
+  width: 80px;
+}
+
+body .index-container main .featured li .circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin: auto;
+  background: url("../img/burger.png");
+  background-size: cover;
+}
+
+body .index-container main .featured li:nth-child(2) .circle {
+  background: url("../img/pizza.png");
+}
+
+body .index-container main .featured li:nth-child(3) .circle {
+  background: url("../img/small chops.png");
+}
+
+body .index-container main .featured li:nth-child(4) .circle {
+  background: url("../img/coffee.png");
+  background-repeat: no-repeat;
+  background-size: 50px;
+}
+
+body .index-container main .featured li p {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 12px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+}
+
+body .index-container main .categories h3 {
+  padding: 5px 0 0 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  font-size: 25px;
+  color: #444;
+}
+
+body .index-container main .categories ul {
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style-type: none;
+  margin: 20px 0 0 0;
+}
+
+body .index-container main .categories ul li {
+  width: 95px;
+  background: url("../img/Rectangle 44.png");
+  background-size: contain;
+  -webkit-box-shadow: 0px 5px 10px #ccc;
+          box-shadow: 0px 5px 10px #ccc;
+  border: none;
+}
+
+body .index-container main .categories ul li:hover {
+  z-index: 1;
+  -webkit-box-shadow: 10px 10px 20px #bbb;
+          box-shadow: 10px 10px 20px #bbb;
+}
+
+body .index-container main .categories ul li div {
+  background: #fff;
+  position: relative;
+  top: 110px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: auto;
+  border: none;
+  padding: .5em .1em .5em .2em;
+  font-family: sans-serif;
+}
+
+body .index-container main .categories ul li div h4 {
+  font-weight: bolder;
+  color: #000;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+}
+
+body .index-container main .special li {
+  background: url("../img/Rectangle 42.png");
+  background-size: contain;
+  height: 150px;
+}
+
+body .index-container main .special li .rating {
+  height: 70px;
+  background: rgba(19, 19, 19, 0.37);
+  position: relative;
+  top: 9px;
+  right: 10px;
+  left: 4px;
+  margin: auto;
+}
+
+body .index-container main .special li .rating p {
+  float: right;
+  padding: 20px 10px 0 0;
+}
+
+body .index-container main .special li .rating p .fa-star,
+body .index-container main .special li .rating p .fa-star-half-full {
+  color: orange;
+  font-size: 20px;
+}
+
+body .index-container main .special li .rating p i:last-child {
+  color: #eee;
+  font-size: 20px;
+}
+
+body .index-container main .special h3 {
+  padding: 5px 0 0 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  font-size: 25px;
+  color: #444;
+}
+
+body .index-container main .kitchen h3 {
+  padding: 5px 0 0 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  font-size: 25px;
+  color: #444;
+}
+
+body .index-container main .kitchen h3 span {
+  float: right;
+  color: orange;
+  padding: 0 10px 0 0;
+  font-size: 20px;
+}
+
+body .index-container main .kitchen h3 span li {
+  background: url("../img/Rectangle 34.png");
+}
+
+body .index-container main .kitchen ul {
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .index-container main .kitchen ul li {
+  height: 100px;
+  width: 180px;
+  border: none;
+  border-radius: 10px;
+  background: url("../img/Rectangle 55.png");
+  background-size: cover;
+}
+
+body .index-container .index-footer {
+  height: 70px;
+  width: auto;
+  border: none;
+  margin: 20px 0 0 0;
+  background: -webkit-gradient(linear, left top, right top, from(#6e1b1b), color-stop(#bd7810), to(#e9900b));
+  background: linear-gradient(90deg, #6e1b1b, #bd7810, #e9900b);
+}
+
+body .index-container .index-footer ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70px;
+}
+
+body .index-container .index-footer ul li i {
+  font-size: 30px;
+  color: #fff;
+}
+
+body .cart-container {
+  height: 100vh;
+}
+
+body .cart-container header {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 15px 0 15px;
+}
+
+body .cart-container header a:first-child {
+  color: #000;
+}
+
+body .cart-container header a:last-child {
+  color: orange;
+}
+
+body .cart-container header a i {
+  font-size: 30px;
+}
+
+body .cart-container .info {
+  height: 100px;
+  text-align: center;
+  margin: 20px 0 20px 0;
+}
+
+body .cart-container .info h1 {
+  color: #000;
+  font-size: 35px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  font-weight: bolder;
+  padding: 10px 0 10px 0;
+}
+
+body .cart-container .info p {
+  font-family: sofia;
+  font-size: 20px;
+}
+
+body .cart-container .info p i:first-child {
+  color: red;
+}
+
+body .cart-container .info p i:nth-child(2) {
+  color: green;
+}
+
+body .cart-container .info p i:nth-child(3) {
+  color: orange;
+}
+
+body .cart-container .items {
+  height: 400px;
+}
+
+body .cart-container .items ul {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr 1fr;
+      grid-template-columns: 2fr 1fr 1fr;
+  -ms-grid-rows: .2fr 1fr 1fr;
+      grid-template-rows: .2fr 1fr 1fr;
+  list-style-type: none;
+  border: 2px solid #ddd;
+  height: 400px;
+}
+
+body .cart-container .items ul li:first-child {
+  background: #eee;
+  border: 2px solid #ddd;
+  border-right: none;
+}
+
+body .cart-container .items ul li:first-child h3 {
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  font-size: 20px;
+  padding: 10px;
+  color: #444;
+}
+
+body .cart-container .items ul li:nth-child(2) {
+  background: #eee;
+  border: 2px solid #ddd;
+  border-left: none;
+  border-right: none;
+}
+
+body .cart-container .items ul li:nth-child(2) p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  color: #444;
+}
+
+body .cart-container .items ul li:nth-child(3) {
+  background: #eee;
+  border: 2px solid #ddd;
+  border-left: none;
+  text-align: center;
+}
+
+body .cart-container .items ul li:nth-child(3) h4 {
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  font-size: 20px;
+  padding: 10px;
+  color: #444;
+}
+
+body .cart-container .items ul li:nth-child(4) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+}
+
+body .cart-container .items ul li:nth-child(4) .items-img {
+  width: 100px;
+  background: url("../img/Rectangle 44.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body .cart-container .items ul li:nth-child(4) .description {
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .cart-container .items ul li:nth-child(4) .description p:first-child {
+  font-weight: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  color: #000;
+}
+
+body .cart-container .items ul li:nth-child(4) .description p:last-child {
+  color: orange;
+  font-size: 18px;
+}
+
+body .cart-container .items ul li:nth-child(5) p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 50px 0 50px 0;
+}
+
+body .cart-container .items ul li:nth-child(6) p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 48px 0 50px 0;
+  color: orange;
+}
+
+body .cart-container .items ul li:nth-child(7) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+}
+
+body .cart-container .items ul li:nth-child(7) .items-img {
+  width: 100px;
+  background: url("../img/Rectangle 57.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body .cart-container .items ul li:nth-child(7) .description {
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .cart-container .items ul li:nth-child(7) .description p:first-child {
+  font-weight: 25px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  color: #000;
+}
+
+body .cart-container .items ul li:nth-child(7) .description p:last-child {
+  color: orange;
+  font-size: 18px;
+}
+
+body .cart-container .items ul li:nth-child(8) p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 50px 0 50px 0;
+}
+
+body .cart-container .items ul li:nth-child(9) p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  padding: 48px 0 50px 0;
+  color: orange;
+}
+
+body .cart-container .summary {
+  margin: 30px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .cart-container .summary ul {
+  border: 2px solid #ddd;
+  height: 120px;
+  width: 200px;
+  list-style-type: none;
+  background: #eee;
+  padding: 5px 10px 0 10px;
+  color: #444;
+}
+
+body .cart-container .summary ul h3 {
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  font-weight: bold;
+}
+
+body .cart-container .summary ul li p {
+  padding: 2px 0 0 2px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  font-size: 15px;
+}
+
+body .cart-container .summary ul p {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  font-size: 15px;
+}
+
+body .cart-container div {
+  width: 100%;
+  height: 100px;
+}
+
+body .cart-container div .place-order {
+  width: 200px;
+  height: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  font-weight: bolder;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background: orange;
+  border-radius: 5px;
+  float: right;
+  margin: 30px 10px 0 0;
+}
+
+body .cart-container .index-footer {
+  height: 70px;
+  width: 100%;
+  border: none;
+  margin: 40px 0 0 0;
+  background: -webkit-gradient(linear, left top, right top, from(#6e1b1b), color-stop(#bd7810), to(#e9900b));
+  background: linear-gradient(90deg, #6e1b1b, #bd7810, #e9900b);
+}
+
+body .cart-container .index-footer ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70px;
+}
+
+body .cart-container .index-footer ul li i {
+  font-size: 30px;
+  color: #fff;
+}
+
+body .cart-container .index-footer ul li i a:visited {
+  color: orange;
+}
+
+body .check {
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  right: .5em;
+  bottom: 200px;
+  left: .5em;
+  width: 90%;
+  height: 250px;
+  border-radius: 10px;
+  margin: auto;
+  border: none;
+  background: #fff;
+  z-index: 1;
+  -webkit-box-shadow: 8px 8px 8px #e1e1e1, -8px -8px 8px rgba(0, 0, 0, 0.1);
+          box-shadow: 8px 8px 8px #e1e1e1, -8px -8px 8px rgba(0, 0, 0, 0.1);
+}
+
+body .check p {
+  text-align: center;
+}
+
+body .check p i {
+  font-size: 120px;
+  color: #1ecc1e;
+}
+
+body .check h3 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial;
+  padding: 10px 0 10px 0;
+}
+
+body .tracking-container header {
+  padding: 20px;
+  height: 20px;
+}
+
+body .tracking-container header a {
+  text-decoration: none;
+}
+
+body .tracking-container header a i {
+  font-size: 25px;
+  color: #000;
+}
+
+body .tracking-container .map {
+  background: url("../img/Rectangle 35.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+
+body .tracking-container .info {
+  height: 300px;
+  padding: 40px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #555;
+}
+
+body .tracking-container .info .summary {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  border-right: 2px solid #bbb;
+  padding: 0 10px 0 0;
+  width: 200px;
+}
+
+body .tracking-container .info .summary h3 {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+body .tracking-container .info .summary ul {
+  list-style-type: none;
+}
+
+body .tracking-container .info .summary ul li {
+  font-size: 20px;
+  font-family: sans-serif;
+  padding: 10px 0 10px 0;
+}
+
+body .tracking-container .info .summary ul li span {
+  float: right;
+  padding: 0;
+}
+
+body .tracking-container .info .summary ul li:nth-child(3) {
+  float: right;
+  padding: 0;
+}
+
+body .tracking-container .info .summary ul p {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+body .tracking-container .info .summary ul p span {
+  padding: 20px 0 0 10px;
+}
+
+body .tracking-container .info .summary ul .address {
+  margin: 30px 0;
+}
+
+body .tracking-container .info .summary ul .address h4 {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+body .tracking-container .info .summary ul .address h4 i {
+  padding: 0 0 0 5px;
+  color: #bbb;
+}
+
+body .tracking-container .info .summary ul .address p {
+  padding: 10px 0;
+}
+
+body .tracking-container .info .acct {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  color: #555;
+}
+
+body .tracking-container .info .acct i {
+  font-size: 100px;
+  color: #bbb;
+}
+
+body .tracking-container .info .acct h4 {
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+body .tracking-container .info .acct p {
+  font-size: 18px;
+  font-family: sans-serif;
+  padding: 5px 0;
+}
+
+body .tracking-container .order-info {
+  margin: 20px 0;
+}
+
+body .tracking-container .order-info ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .tracking-container .order-info ul li .circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  background: #ccc;
+  margin: auto;
+}
+
+body .tracking-container .order-info ul li .route {
+  color: #0f0;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+body .tracking-container .order-info ul li .arrived {
+  color: orange;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+body .tracking-container .order-info ul li .delivered {
+  color: #ccc;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.food-detail {
+  height: auto;
+  position: static;
+  overflow-y: hidden;
+}
+
+.food-detail .food-detail-container {
+  background: linear-gradient(150deg, #551d14, #551d01, #e9900b);
+}
+
+.food-detail .food-detail-container header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+}
+
+.food-detail .food-detail-container header a i {
+  color: #fff;
+}
+
+.food-detail .food-detail-container header .fa-heart {
+  color: #e9900b;
+}
+
+.food-detail .food-detail-container .food-pics-container {
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.food-detail .food-detail-container .food-pics-container .food-preview-box {
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+}
+
+.food-detail .food-detail-container .food-pics-container .food-preview-box .food-preview {
+  width: 200px;
+  height: 200px;
+  margin: 50px 0 50px 100px;
+}
+
+.food-detail .food-detail-container .food-pics-container .counter {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  text-align: center;
+  padding: 20px 0 40px 0;
+}
+
+.food-detail .food-detail-container .food-pics-container .counter ul {
+  list-style-type: none;
+}
+
+.food-detail .food-detail-container .food-pics-container .counter ul li p {
+  font-size: 25px;
+  font-weight: bolder;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.food-detail .food-detail-container .food-pics-container .counter ul li i {
+  color: orange;
+}
+
+.food-detail .food-detail-container .food-info {
+  height: 450px;
+  border: 2px solid #fff;
+  -webkit-transform-origin: right;
+          transform-origin: right;
+  -webkit-transform: skew(0deg, 20deg) translateY(-5px);
+          transform: skew(0deg, 20deg) translateY(-5px);
+  border-top-left-radius: 40px;
+  border-top-right-radius: 10px;
+  margin: 30px 0 0 0;
+  background: #fff;
+}
+
+.food-detail .food-detail-container .food-info .food-info-container {
+  -webkit-transform: skew(0deg, -20deg);
+          transform: skew(0deg, -20deg);
+  height: 430px;
+  background: #fff;
+  margin-top: 105px;
+  width: 100%;
+}
+
+.food-detail .food-detail-container .food-info .food-info-container header {
+  position: absolute;
+  top: -100px;
+  left: 20px;
+  width: 40px;
+}
+
+.food-detail .food-detail-container .food-info .food-info-container header h2 {
+  font-size: 30px;
+  width: auto;
+}
+
+.food-detail .food-detail-container .food-info .food-info-container section h2 {
+  text-align: center;
+  color: #444;
+  font-size: 35px;
+  font-family: sans-serif;
+}
+
+.food-detail .food-detail-container .food-info .food-info-container section .food-rating {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.food-detail .food-detail-container .food-info .food-info-container section .food-rating i {
+  color: orange;
+}
+
+.food-detail .food-detail-container .food-info .food-info-container section .description {
+  text-align: center;
+  font-size: 18px;
+  color: #555;
+  font-family: sans-serif;
+  padding: 0 10px;
+}
+
+.food-detail .food-detail-container .food-info .food-info-container .bag {
+  height: 40px;
+  margin: 50px 0 0 0;
+}
+
+.food-detail .food-detail-container .food-info .food-info-container .bag ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  height: 100px;
+}
+
+.food-detail .food-detail-container .food-info .food-info-container .bag ul li {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.food-detail .food-detail-container .food-info .food-info-container .bag ul li h4 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  color: orange;
+}
+
+.food-detail .food-detail-container .food-info .food-info-container .bag ul li .mins {
+  text-align: center;
+  padding: 15px 0;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #555;
+  font-weight: bold;
+}
+
+.food-detail .food-detail-container .food-info .food-info-container .bag ul li .bag {
+  margin: 0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.food-detail .food-detail-container .food-info .food-info-container .bag ul li .bag i {
+  color: orange;
+}
+
+.food-detail .food-detail-container .food-info .food-info-container .index-footer {
+  height: 70px;
+  width: 100%;
+  border: none;
+  margin: 42px 0;
+  background: -webkit-gradient(linear, left top, right top, from(#6e1b1b), color-stop(#bd7810), to(#e9900b));
+  background: linear-gradient(90deg, #6e1b1b, #bd7810, #e9900b);
+}
+
+.food-detail .food-detail-container .food-info .food-info-container .index-footer ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 70px;
+}
+
+.food-detail .food-detail-container .food-info .food-info-container .index-footer ul li i {
+  font-size: 30px;
+  color: #fff;
+}
+
+.food-detail .food-detail-container .food-info .food-info-container .index-footer ul li i a:visited {
+  color: orange;
+}
+/*# sourceMappingURL=style.css.map */

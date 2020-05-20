@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Sign up</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+</head>
+
+<body>
+    <div class="signup-container">
+        <a href="login.html"><i class="fa fa-arrow-left left-icon"></i></a>
+        <div class="info">
+            <h1>Meal Time</h1>
+            <p>
+                Delivery<i class="fa fa-spoon"></i><i class="fa fa-coffee"></i><i class="fa fa-ticket"></i></p>
+        </div>
+        <form>
+            <div class="username">
+                <i class="fa fa-user "></i><input type="username" class="user-input" placeholder="Username" />
+            </div>
+            <div class="password">
+                <i class="fa fa-lock"></i><input type="password" class="pass-input" placeholder="Password" /><i class="fa fa-eye-slash" id="eye"></i>
+            </div>
+            <div class="email">
+                <i class="fa fa-envelope"></i><input name="email" type="email" class="pass-input" placeholder="E-mail" />
+            </div>
+            <div class="phone">
+                <i class="fa fa-phone"></i><input type="tel" class="pass-input" placeholder="mobile" />
+            </div>
+            <p class="forgot-pass"><a href="#">Forgot your password?</a></p>
+            <br/>
+            <div class="btn">
+                <button class="signin-button"><a href="login.html">Create</a></button>
+            </div>
+        </form>
+        <footer>
+            <p>Or Create account with</p>
+            <ul>
+                <li><i class="fa fa-facebook-square"></i></li>
+                <li><i class="fa fa-twitter-square"></i></li>
+                <li><i class="fa fa-google-plus-circle"></i></li>
+            </ul>
+        </footer>
+    </div>
+    <script>
+        const passopen = document.getElementById("eye");
+        passopen.addEventListener('click', function() {
+            var x = document.querySelector(".pass-input");
+            if (x.type === "password") {
+                x.type = 'text';
+                const removeclass = passopen.classList.remove('fa-eye-slash');
+                const addclass = passopen.classList.add('fa-eye')
+            } else {
+                x.type = 'password';
+                const removeclass = passopen.classList.remove('fa-eye');
+                const addclass = passopen.classList.add('fa-eye-slash');
+            }
+        });
+    </script>
+</body>
+
+</html>
